@@ -1,0 +1,21 @@
+define hadapkanan:
+	putbeeper
+	turnleft
+	turnleft
+	turnleft
+	move
+define move2:
+	move
+	move
+move2
+move2
+hadapkanan
+move2
+hadapkanan
+move
+hadapkanan
+hadapkanan
+move
+turnoff	
+
+#efisiensi
