@@ -1,0 +1,21 @@
+define hadapkanan:
+	turnleft
+	turnleft
+	turnleft
+move
+move
+move
+move
+hadapkanan
+move
+move
+move
+hadapkanan
+move
+move
+hadapkanan
+move
+hadapkanan
+move
+turnoff
+#define/definisi = membuat perintah baru dengan cara menggunakan kombinasi atau kumpulan dari perintah yang biasa digunakan.
