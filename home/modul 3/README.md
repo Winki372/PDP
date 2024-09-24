@@ -1,1 +1,2 @@
-what i have done in modul 3
+learning define in GvRng
+
