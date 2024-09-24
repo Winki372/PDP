@@ -1,2 +1,0 @@
-learning define in GvRng
-
