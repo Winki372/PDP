@@ -1,0 +1,36 @@
+#angka 0
+define mp:
+	move
+	putbeeper
+define k:
+	turnleft
+	turnleft
+	turnleft
+define gerakLetak8:
+	mp
+	mp
+	mp
+	mp
+	mp
+	mp
+	mp
+	mp
+define gerakLetak6:
+	mp
+	mp
+	mp
+	mp
+	mp
+	mp
+gerakLetak6
+move
+k
+gerakLetak8
+move
+k
+gerakLetak6
+move
+k
+gerakLetak8
+move
+turnoff
