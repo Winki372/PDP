@@ -1,4 +1,3 @@
-#CODE EDITOR
 define mp:
 	move
 	putbeeper
@@ -38,6 +37,29 @@ define m9:
 	move
 	move
 	move
+define m9.2:
+	mp
+	mp
+	mp
+	mp
+	mp
+	mp
+	mp
+	mp
+	mp
+define m5:
+	mp
+	mp
+	mp
+	mp
+	mp
+define m6:
+	move
+	move
+	move
+	move
+	move
+	move
 define type0:
 	gerakLetak6
 	move
@@ -70,88 +92,29 @@ define type2:
 	mp
 	turnleft
 	gerakLetak5
+define otwangka9:
+	m6
+	turnleft
+	move
+	move
+	move
+define type9:
+	otwangka9
+	mp
+	turnleft
+	mp
+	mp
+	mp
+	mp
+	k
+	m5
+	k
+	m5
+	k
+	m9.2
+	turnleft
+	move
 type0
 type2
-
+type9
 turnoff
-
-#WORLD EDITOR
-robot 8 2 W 100
-wall 3 2 N
-wall 4 2 N
-wall 5 2 N
-wall 6 2 N
-wall 1 4 E
-wall 1 5 E
-wall 1 6 E
-wall 1 7 E
-wall 1 8 E
-wall 7 5 E
-wall 7 6 E
-wall 7 7 E
-wall 7 8 E
-wall 7 9 E
-wall 2 10 E
-wall 1 9 E
-wall 2 9 N
-wall 6 10 N
-wall 5 10 N
-wall 4 10 N
-wall 3 10 N
-wall 6 10 E
-wall 7 9 N
-wall 7 4 E
-wall 7 3 N
-wall 6 3 E
-wall 2 3 E
-wall 2 3 N
-wall 15 1 N
-wall 10 10 N
-wall 10 11 N
-wall 15 11 N
-wall 14 11 N
-wall 13 11 N
-wall 12 11 N
-wall 11 11 N
-wall 11 10 N
-wall 12 10 N
-wall 13 10 N
-wall 14 10 N
-wall 14 7 E
-wall 14 6 N
-wall 13 6 N
-wall 12 6 N
-wall 11 6 N
-wall 10 6 N
-wall 9 6 E
-wall 9 5 E
-wall 9 4 E
-wall 9 3 E
-wall 9 2 E
-wall 10 1 N
-wall 11 1 N
-wall 12 1 N
-wall 13 1 N
-wall 14 1 N
-wall 15 5 N
-wall 14 5 N
-wall 13 5 N
-wall 12 5 N
-wall 11 5 N
-wall 10 5 E
-wall 10 4 E
-wall 10 3 E
-wall 11 2 N
-wall 12 2 N
-wall 13 2 N
-wall 14 2 N
-wall 15 2 N
-wall 14 8 E
-wall 14 9 E
-wall 14 10 E
-wall 15 10 E
-wall 15 9 E
-wall 15 8 E
-wall 15 7 E
-wall 15 6 E
-wall 15 11 E
