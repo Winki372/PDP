@@ -37,33 +37,39 @@ define m9:
 	move
 	move
 	move
-gerakLetak6
-move
-k
-gerakLetak8
-move
-k
-gerakLetak6
-move
-k
-gerakLetak8
-move
-turnleft
-move
-turnleft
-m9
-k
-gerakLetak6
-k
-gerakLetak5
-k
-gerakLetak5
-turnleft
-mp
-mp
-mp
-mp
-turnleft
-gerakLetak5
+define type0:
+	gerakLetak6
+	move
+	k
+	gerakLetak8
+	move
+	k
+	gerakLetak6
+	move
+	k
+	gerakLetak8
+define otwatasangka2:
+	move
+	turnleft
+	move
+	turnleft
+	m9
+	k	
+define type2:
+	gerakLetak6
+	k
+	gerakLetak5
+	k
+	gerakLetak5
+	turnleft
+	mp
+	mp
+	mp
+	mp
+	turnleft
+	gerakLetak5
+type0
+otwatasangka2
+type2
 move
 turnoff
