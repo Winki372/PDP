@@ -1,2 +1,1 @@
-doing Kegiatan 5 and INISIAL
-mengenal GvRng
+Mengerjakan Kegiatan 5 dan 6
