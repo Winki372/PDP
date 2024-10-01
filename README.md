@@ -1,5 +1,3 @@
-# PDP
-learning PDP
-what is in this repository?
-my file from practice PDP lesson and
-my task that were done
+#Praktikum Pemorgarman Dasar, semester 1
+yUeMeS
+Praktikum menggunakan Guido Van Robot (GvRng) dari praktikum 1-5
