@@ -1,1 +1,1 @@
-melakukan kegiatan 2 di sekolah
+melakukan kegiatan 2 di kampus
