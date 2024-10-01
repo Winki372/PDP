@@ -1,0 +1,19 @@
+define bk:
+	turnleft
+	turnleft
+	turnleft
+	putbeeper
+define m2:
+	move
+	move
+m2
+m2
+bk
+m2
+move
+bk
+m2
+bk
+move
+bk
+turnoff
