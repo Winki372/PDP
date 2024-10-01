@@ -1,1 +1,1 @@
-code that i do in school
+Praktikum yang saya kerjakan di kampus.
