@@ -1,3 +1,3 @@
 Praktikum Pemrograman Dasar yUeMeS
 ##
-dokumentasi dan source code praktikum menggunakan Guido Van Robot (GvRng) dari praktikum 1-5.
+dokumentasi dan source code praktik menggunakan Guido Van Robot (GvRng) dan Python di buku ALGOPRO(Algoritma dan Pemrograman).
