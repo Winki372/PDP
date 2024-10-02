@@ -1,0 +1,6 @@
+define bk:
+	turnleft turnleft turnleft putbeeper
+define m4:
+	move move move move
+m4 move bk m4 bk m4 bk m4 putbeeper turnleft move 
+turnoff
