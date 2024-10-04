@@ -1,22 +1,18 @@
-define bk:
-	turnleft 
-        turnleft 
-        turnleft 
-        putbeeper
-define m4:
+define bkkkp:
 	move 
         move 
         move 
         move
-m4 
+	turnleft 
+        turnleft 
+        turnleft 
+        putbeeper
 move 
-bk 
-m4 
-bk 
-m4 
-bk 
-m4 
-putbeeper 
-turnleft 
+bkkkp
+bkkkp
+bkkkp
+bkkkp
+turnleft
+turnleft
 move 
 turnoff
