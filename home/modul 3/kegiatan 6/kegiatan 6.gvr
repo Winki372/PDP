@@ -1,0 +1,35 @@
+define bk:
+	turnleft
+	turnleft
+	turnleft
+define inoat:
+	move
+	turnleft
+	move
+	putbeeper
+	turnleft
+	turnleft
+	move
+	turnleft
+	move
+define bkmb:
+	bk
+	move
+define inoat3:
+	inoat
+	move
+	inoat
+	move
+	inoat
+move
+inoat3
+bkmb
+bk
+inoat3
+move
+bkmb
+bk
+turnoff
+
+L300240029
+THORIQ SAIFUL MUHSININ
