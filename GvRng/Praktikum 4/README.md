@@ -23,7 +23,7 @@
 > perulangan sangat simple, bukan?
 ##
 - **Pengambilan keputusan**
-  - ada 18 kondisi yang bisa dibuat untuk pengambilan keputusan. analoginya begini, jika ada kondisi tertentu, maka melakukan sesuatu. sesuatu yang dapat dilakukan bisa berupa perulangan, fungsi, perintah inti. 
+  - ada 18 kondisi yang bisa dibuat untuk pengambilan keputusan. analoginya begini, jika ada kondisi tertentu, maka melakukan sesuatu. sesuatu yang dapat dilakukan bisa berupa perulangan, pemanggilan fungsi, perintah inti. 
 
 | **Kondisi**  | **Makna** |
 | ------------- | ------------- |
