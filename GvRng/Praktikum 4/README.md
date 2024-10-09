@@ -2,7 +2,7 @@
 ##
 **Perulangan**
 
-  - Jika kalian memiliki ingin mengulangi peritah yang sama, di GvRng ada fitur perulangan menggunakan 'do'.
+  - Jika kalian ingin mengulangi perintah yang sama, di GvRng ada fitur perulangan menggunakan 'do'.
 'do' memiliki arti lakukan. yang berati, kalian ingin melakukan perintah itu berapa kali.
   - misal, ingin memerintah robot untuk jalan 3 kali
   - awal sebelum mengenal 'do':
