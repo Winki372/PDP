@@ -6,7 +6,7 @@ do 3:
 	turnleft
 	do 3:
 		move
-		pickbeeper
+	pickbeeper
 	pb
 	do 3: 
 		move
