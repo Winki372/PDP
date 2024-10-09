@@ -63,9 +63,9 @@
 
   - atau bisa juga seperti ini:
   ```
-  if_front_is_blocked:
+  if front_is_blocked:
     do 3:
-      turnelft
+      turnleft
     move
   ```
   - arti dari perintah di atas adalah. jika di depan ada peghalang, lakukan 3x hadap kiri (hadap kanan), lalu maju satu langkah
