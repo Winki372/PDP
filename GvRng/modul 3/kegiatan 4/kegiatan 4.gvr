@@ -1,0 +1,17 @@
+define bk:
+	turnleft
+	turnleft
+	turnleft
+define mp:
+	move
+	putbeeper
+define tulis8:
+	mp mp move bk mp mp move bk mp mp move bk mp mp move bk move move move turnleft mp mp move turnleft mp mp move turnleft mp mp move
+define tulis1:
+	bk move move turnleft move mp move bk mp bk mp mp mp mp mp mp bk mp turnleft turnleft move mp move
+define tulis9:
+	move turnleft mp turnleft turnleft move turnleft mp mp move turnleft mp mp mp mp mp move turnleft mp mp move turnleft mp mp move turnleft mp mp move bk move move move turnleft move 
+tulis8
+tulis1
+tulis9
+turnoff

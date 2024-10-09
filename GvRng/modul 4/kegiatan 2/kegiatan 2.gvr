@@ -1,0 +1,16 @@
+define pb:
+	do 2:
+		turnleft
+do 3:
+	move
+	turnleft
+	do 3:
+		move
+		pickbeeper
+	pb
+	do 3: 
+		move
+	turnleft
+	move
+turnoff
+
