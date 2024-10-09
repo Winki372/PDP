@@ -60,3 +60,12 @@
   ```
   - arti dari instruksi di atas adalah. Jika di depan ada penghalang, maka, hadap kiri lalu maju satu langkah
   - robot harus memerika kondisi tersebut dahulu, jika kondisi tersebut terpenuhi, maka robot tersebut akan melakukan perintah di dalam nya.
+
+  - atau bisa juga seperti ini:
+  ```
+  if_front_is_blocked:
+    do 3:
+      turnelft
+    move
+  ```
+  - arti dari perintah di atas adalah. jika di depan ada peghalang, lakukan 3x hadap kiri (hadap kanan), lalu maju satu langkah
