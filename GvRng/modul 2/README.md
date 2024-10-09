@@ -1,3 +1,7 @@
-melakukan modul(praktikum) 2 ketika di kampus
+Praktik modul (praktikum) 2
 ##
-Mengerjakan Kegiatan 5 dan 6
+praktiknya berupa, mengubah arah robot,Beeper, perintah inti penggunaan GvRng (Guido Van Robot)
+##
+perintah inti: move, turnleft, putbeeper, pickbeeper.
+##
+perintah belok kanan: turnleft, turnleft, turnleft
