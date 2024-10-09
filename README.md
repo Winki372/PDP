@@ -2,4 +2,4 @@ Praktikum Dasar Pemrograman Dasar yUeMeS
 ##
 dokumentasi dan source code praktik menggunakan Guido Van Robot (GvRng) dan Python di buku ALGOPRO (Algoritma dan Pemrograman).
 ##
-![alt text](https://giffiles.alphacoders.com/113/113020.gif)
+![alt text](https://i.pinimg.com/originals/80/6e/de/806ede5583f088c6bdb788bf867f8064.gif)
