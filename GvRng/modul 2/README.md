@@ -4,4 +4,4 @@ praktiknya berupa, mengubah arah robot,Beeper, perintah inti penggunaan GvRng (G
 ##
 perintah inti: move, turnleft, putbeeper, pickbeeper.
 ##
-perintah belok kanan: turnleft, turnleft, turnleft
+perintah hadap kanan: turnleft, turnleft, turnleft
