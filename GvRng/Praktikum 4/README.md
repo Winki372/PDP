@@ -50,6 +50,7 @@
   ```
   jika di depan ada tembok:
     hadap kiri
+    maju
   ```
   - contoh insturksi:
   ```
@@ -57,5 +58,5 @@
     turnleft
     move
   ```
-  - arti dari instruksi di atas adalah. Jika di depan ada penghalang, maka, hadap kanan lalu maju satu langkah
+  - arti dari instruksi di atas adalah. Jika di depan ada penghalang, maka, hadap kiri lalu maju satu langkah
   - robot harus memerika kondisi tersebut dahulu, jika kondisi tersebut terpenuhi, maka robot tersebut akan melakukan perintah di dalam nya.
