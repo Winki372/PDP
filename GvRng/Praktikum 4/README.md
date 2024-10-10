@@ -123,6 +123,7 @@
   ```
 - Cara membaca kode perintah/instruksi di atas adalah.
     - Membuat fungsi hadapkanan, dengan cara melakukan 3x hadap kiri. Jika di depan robot tidak ada penghalang, lakukan 2x maju satu langka. Jika di depan robot ada penghalang, lakukan hadapkanan(fungsi hadapkanan dipanggil) lalu maju satu langkah.
+      
     - Kode ini memeriksa apakah ada penghalang di depan robot. Jika tidak ada penghalang, robot akan bergerak maju dua langkah. Jika ada penghalang, robot akan berputar ke kanan dan kemudian bergerak maju dua langkah.
  
 #
