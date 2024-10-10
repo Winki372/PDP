@@ -181,19 +181,19 @@
     - Jadi, Robot akan memeriksa kondisi yang dimasukkan terlebih dahulu. Jika kondisi tersebut benar/terpenuhi, perintah di kondisi tersebut dilakukan. Jika kondisi satu tidak terpenuhi, robot memeriksa kondisi 2. Jika kondisi 2 tidak terpenuhi juga. Robot melakukan instruksi 'else' jika semua kondisi tersebut tidak terpenuhi.
 
   - Penggunaan elif bisa lebih dari satu.
-      - contohnya:
-        ```
-        if front_is_clear:
-          do 2:
-		move
-        elif left_is_clear:
-        	turnleft
-	        do 2:
-			move
-        elif right_is_clear:
-	        do 3:
-		        turnleft
-	      move
-        else:
-	        turnoff
-        ```
+  - Contoh instruksinya begini:
+  ```
+  if front_is_clear:
+    do 2:
+      move
+  elif left_is_clear:
+    turnleft
+      do 2:
+        move
+  elif right_is_clear:
+    do 3:
+      turnleft
+    move
+  else:
+    turnoff
+  ```
