@@ -185,11 +185,11 @@
         ```
         if front_is_clear:
           do 2:
-		        move
+		move
         elif left_is_clear:
-	        turnleft
+        	turnleft
 	        do 2:
-		        move
+			move
         elif right_is_clear:
 	        do 3:
 		        turnleft
