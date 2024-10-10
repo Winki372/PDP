@@ -105,6 +105,7 @@
     move
   ```
 - Cara membaca perintah / instruksi di atas adalah. **Jika di depan robot ada penghalang (_wall_)**, lakukan hadap kiri lalu maju satu langkah. **jika tidak ada penghalang di depan robot**, lakukan maju satu langkah.
+  
 - Di dalam instruksi tersebut juga bisa diisi dengan perintah 'do' dan juga pemanggilan fungsi.
 - Contoh instruksinya begini:
   ```
