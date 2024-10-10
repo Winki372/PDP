@@ -2,10 +2,15 @@
 ##
 **Perulangan**
 - **do**
+  
   - Jika kalian ingin mengulangi perintah yang sama, di GvRng ada fitur perulangan menggunakan 'do'.
+    
   - 'do' memiliki arti lakukan. Yang berati, kalian ingin melakukan perintah itu berapa kali.
+    
   - Penggunaan perintah do, sama seperti pembuatan fungsi. Yaitu, perintah di dalam 'do' nya harus menjorok ke dalam
+    
   - Misal, ingin memerintah robot untuk jalan 3 kali
+    
   - Awal sebelum mengenal 'do':
   ```
   move move move
@@ -31,7 +36,9 @@
 
 **Pengambilan keputusan**
 - **if (Jika)**
+  
   - Ada 18 kondisi yang bisa dibuat untuk pengambilan keputusan. Analoginya begini, jika ada kondisi tertentu, maka melakukan sesuatu. Sesuatu yang dapat dilakukan bisa berupa perulangan, pemanggilan fungsi, perintah inti.
+    
   - Penggunaan perintah pengambilan keputusan, sama seperti pembuatan fungsi. Yaitu, perintah di dalam 'pengambilan keputusan' harus menjorok ke dalam
 
 | **Kondisi**  | **Makna** |
@@ -69,7 +76,9 @@
     turnleft
     move
   ```
-  - Cara membaca perintah/instruksi di atas adalah. **Jika di depan robot ada penghalang, maka, hadap kiri lalu maju satu langkah**.
+  - Cara membaca perintah/instruksi di atas adalah.
+      - **Jika di depan robot ada penghalang, maka, hadap kiri lalu maju satu langkah**.
+    
   - Robot harus memerika kondisi tersebut dahulu, jika kondisi tersebut terpenuhi, maka robot tersebut akan melakukan perintah di dalam nya.
 
   - Atau bisa juga seperti ini, variasi menggunakan perintah 'do':
@@ -79,13 +88,17 @@
       turnleft
     move
   ```
-  - Cara memmbaca perintah/instruksi di atas adalah. **jika di depan robot ada peghalang**, lakukan 3x hadap kiri (hadap kanan), lalu maju satu langkah
+  - Cara memmbaca perintah/instruksi di atas adalah.
+      - **jika di depan robot ada peghalang**, lakukan 3x hadap kiri (hadap kanan), lalu maju satu langkah
 
 #
 
 **Lebih banyak keputusan**
+
 - **if - else**
+  
   - Digunakan untuk membuat lebih banyak keputusan berdasarkan suatu kondisi tertentu.
+    
   - Menggunakan gabungan perintah if-else
 
 - Contoh analoginya begini:
@@ -104,9 +117,11 @@
   else:
     move
   ```
-- Cara membaca perintah / instruksi di atas adalah. **Jika di depan robot ada penghalang (_wall_)**, lakukan hadap kiri lalu maju satu langkah. **jika tidak ada penghalang di depan robot**, lakukan maju satu langkah.
+- Cara membaca perintah / instruksi di atas adalah.
+    - **Jika di depan robot ada penghalang (_wall_)**, lakukan hadap kiri lalu maju satu langkah. **jika tidak ada penghalang di depan robot**, lakukan maju satu langkah.
   
 - Di dalam instruksi tersebut juga bisa diisi dengan perintah 'do' dan juga pemanggilan fungsi.
+  
 - Contoh instruksinya begini:
   ```
   define hadapkanan:
@@ -122,12 +137,63 @@
       move
   ```
 - Cara membaca kode perintah/instruksi di atas adalah.
-    - Membuat fungsi hadapkanan, dengan cara melakukan 3x hadap kiri. Jika di depan robot tidak ada penghalang, lakukan 2x maju satu langka. Jika di depan robot ada penghalang, lakukan hadapkanan(fungsi hadapkanan dipanggil) lalu maju satu langkah.
+  
+    - Membuat fungsi hadapkanan, dengan cara melakukan 3x hadap kiri. **Jika di depan robot tidak ada penghalang**, lakukan 2x maju satu langka. **Jika di depan robot ada penghalang**, lakukan hadapkanan(fungsi hadapkanan dipanggil) lalu maju satu langkah.
       
     - Kode ini memeriksa apakah ada penghalang di depan robot. Jika tidak ada penghalang, robot akan bergerak maju dua langkah. Jika ada penghalang, robot akan berputar ke kanan dan kemudian bergerak maju dua langkah.
  
 #
 
 **Lebih banyak kondisi dan lebih banyak keputusan**
-- **if - elif - else** 
+
+- **if - elif - else**
+  
   - Digunakan untuk pengecekan lebih dari 1 kondisi.
+    
+  - Contoh analogoinya begini:
+  ```
+  jika di depan tidak ada penghalang:
+    lakukan 2x:
+      maju satu langkah
+  jika di depan ada penghalang:
+    hadapk kiri
+    lakukan 2x:
+      maju satu langkah
+  jika tidak:
+    matikan robot
+  ```
+  - Contoh instruksinya begini:
+  ```
+  if front_is_clear:
+    do 2:
+      move
+  elif left_is_clear:
+    turnleft
+      do 2:
+        move
+  else:
+    turnoff
+  ```
+  - Cara membaca perintah/instruksi di atas adalah.
+    
+    - Jika di depan tidak ada penghalang (_wall_), lakukan 2x maju satu langkah. Jika di samping kiri   tidak ada penghalang (_wall_), lakukan hadap kiri lalu 2x maju satu langkah. Jika semua kondisi tersebut tidak terpenuhi, matikan robot.
+      
+    - Jadi, Robot akan memeriksa kondisi yang dimasukkan terlebih dahulu. Jika kondisi tersebut benar/terpenuhi, perintah di kondisi tersebut dilakukan. Jika kondisi satu tidak terpenuhi, robot memeriksa kondisi 2. Jika kondisi 2 tidak terpenuhi juga. Robot melakukan instruksi 'else' jika semua kondisi tersebut tidak terpenuhi.
+
+  - Penggunaan elif bisa lebih dari satu.
+      - contohnya:
+        ```
+        if front_is_clear:
+          do 2:
+		        move
+        elif left_is_clear:
+	        turnleft
+	        do 2:
+		        move
+        elif right_is_clear:
+	        do 3:
+		        turnleft
+	      move
+        else:
+	        turnoff
+        ```
