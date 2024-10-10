@@ -1,7 +1,7 @@
 **Modul 4 | Perulangan dan pengambilan keputusan**
 ##
 **Perulangan**
-
+- **do**
   - Jika kalian ingin mengulangi perintah yang sama, di GvRng ada fitur perulangan menggunakan 'do'.
   - 'do' memiliki arti lakukan. Yang berati, kalian ingin melakukan perintah itu berapa kali.
   - Penggunaan perintah do, sama seperti pembuatan fungsi. Yaitu, perintah di dalam 'do' nya harus menjorok ke dalam
