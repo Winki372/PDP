@@ -1,4 +1,4 @@
-**Modul 4 | Perulangan dan pengambilan keputusan**
+**Praktikum 4 | Perulangan dan pengambilan keputusan**
 ##
 **Perulangan**
 - **do**
