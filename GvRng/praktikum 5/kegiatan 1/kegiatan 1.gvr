@@ -1,0 +1,15 @@
+move
+move
+do 2:
+	putbeeper
+move
+do 9:
+	putbeeper
+move
+do 2 :
+	turnleft
+do 4:
+	while next_to_a_beeper:
+		pickbeeper
+	move
+turnoff

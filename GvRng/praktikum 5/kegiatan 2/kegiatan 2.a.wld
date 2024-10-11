@@ -1,0 +1,11 @@
+robot 2 2 E 0
+wall 2 1 N
+wall 3 1 N
+wall 4 1 N
+wall 5 1 N
+wall 6 1 N
+wall 6 2 E
+wall 6 3 E
+wall 6 4 E
+wall 6 4 N
+wall 5 4 N

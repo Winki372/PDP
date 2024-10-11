@@ -1,0 +1,10 @@
+while not_next_to_a_beeper:
+	if right_is_clear:
+		do 3:
+			turnleft
+		move
+	elif front_is_blocked:
+		turnleft
+	else:
+		move
+turnoff

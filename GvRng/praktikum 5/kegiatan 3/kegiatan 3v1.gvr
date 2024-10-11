@@ -1,0 +1,16 @@
+putbeeper
+do 3:
+	turnleft
+move
+while not_next_to_a_beeper:
+	if right_is_clear:
+		putbeeper
+		move
+	elif front_is_clear:
+		move
+	else:
+		turnleft
+		move
+pickbeeper
+turnleft
+turnoff

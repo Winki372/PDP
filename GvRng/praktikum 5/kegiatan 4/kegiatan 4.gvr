@@ -1,0 +1,13 @@
+while not_next_to_a_beeper:
+	if right_is_blocked:
+		if front_is_clear:
+			move
+		else:
+			turnleft
+	else:
+		turnleft
+		turnleft
+		turnleft
+		move
+pickbeeper
+turnoff		
