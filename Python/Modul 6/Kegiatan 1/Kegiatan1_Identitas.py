@@ -1,7 +1,7 @@
 ##PROGRAM IDENTITAS DIRI. DIBUAT OLEH
-#THORIQ SAIFUL MUHSININ
-Name = 'THORIQ SAIFUL MUHSININ'
-Adrress = 'Cantel Wetan, Sragen Tengah, Sragen'
+#THOxxx xxxxxx xxxxxxxx
+Name = 'THOxxx xxxxxx xxxxxxxx'
+Adrress = 'xxxxxx xxxxx'
 Hobby = 'Watching Film'
 Age = int(19)
 Favorite_Colour = 'Red, Blue, Grey'
