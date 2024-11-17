@@ -1,9 +1,9 @@
 ##Program Akun 
-##Dibuat oleh Thoriq Saiful Muhsinin
+##Dibuat oleh Thoxxx xxxxxx xxxxxxxx
 import random
 
-Nama = 'Thoriq Saiful Muhsinin'
-Tanggal_Lahir = '25 September 2005'
+Nama = 'Thoxxx xxxxxx xxxxxxxx'
+Tanggal_Lahir = '25 xxxxxxxxx xxxx'
 Angka_Acak = ''.join([str(random.randint(0,5)) for i in range(3)])
 Nama_Singkat = f"{Nama[:6]} {Nama[7]}.{Nama[14]}"
 Username = (Nama[0])+(Tanggal_Lahir[:2])+(Tanggal_Lahir[-4:])
