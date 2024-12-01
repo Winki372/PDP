@@ -1,5 +1,0 @@
-berkas = open("L300240029.txt", "w")
-berkas.write("L300240020\n")
-berkas.write("25-09-200\n")
-berkas.write("THORIQ SAIFUL MUHSININ\n")
-berkas.close()
