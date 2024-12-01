@@ -1,4 +1,4 @@
-**Praktikum Dasar Pemrograman Dasar yuemes**
+**Praktikum Dasar Pemrograman Dasar Universitas Muhammadiyah Surakarta**
 ##
 Dokumentasi dan source code praktik menggunakan Guido Van Robot (GvRng) dan Python di buku ALGOPRO (Algoritma dan Pemrograman). 
 ##
