@@ -1,5 +1,5 @@
 profile = { 'nama':'Thoriq Saiful Muhsinin',
-            'nim':'L300240029',
+            'nim':'*******029',
             'alamat':'Surakarta',
             'gender':'Laki-Laki', 
             'umur': '17',
