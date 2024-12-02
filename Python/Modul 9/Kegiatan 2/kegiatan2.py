@@ -1,7 +1,7 @@
-berkas = open ("L300240029", "r+")
+berkas = open ("xxxxxxx029", "r+")
 data = berkas.readlines()
 
-data[1]="09/25/2005\n"
+data[1]="mm/dd/yyyy\n"
 
 berkas.seek(0)
 
