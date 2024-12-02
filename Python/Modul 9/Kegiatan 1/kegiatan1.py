@@ -1,0 +1,5 @@
+berkas = open("L300240029", "w")
+berkas.write("L300240029\n")
+berkas.write("25-09-2005\n")
+berkas.write("THORIQ SAIFUL MUHSININ\n")
+berkas.close()
