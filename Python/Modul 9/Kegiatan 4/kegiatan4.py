@@ -1,6 +1,6 @@
 import shelve
 
-f = open("L300240029", 'r')
+f = open("xxxxxxx029", 'r')
 data = f.readlines()
 
 nim = data[0].strip()
